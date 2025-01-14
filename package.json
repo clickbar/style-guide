@@ -1,0 +1,17 @@
+{
+  "name": "@clickbar/style-guide",
+  "version": "0.0.1",
+  "description": "clickbar.'s engineering style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "prettier": "./prettier",
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.0",
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
