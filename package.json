@@ -12,10 +12,10 @@
   },
   "license": "MIT",
   "type": "module",
-  "exports": [
-    "./pint.json",
-    "./prettier.js"
-  ],
+  "exports": {
+    "./pint.json": "./pint.json",
+    "./prettier": "./prettier.js"
+  },
   "files": [
     "pint.json",
     "prettier.js"
