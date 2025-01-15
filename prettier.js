@@ -3,6 +3,8 @@
  * define those here to ensure that doesn't happen.
  *
  * See: https://github.com/prettier/prettier/blob/main/docs/configuration.md#editorconfig
+ *
+ * @type {import("prettier").Config}
  */
 const overridableDefaults = {
   endOfLine: 'lf',
@@ -10,7 +12,11 @@ const overridableDefaults = {
   printWidth: 100,
 };
 
-module.exports = {
+// noinspection JSUnusedGlobalSymbols
+/**
+ * @type {import("prettier").Config}
+ */
+export default {
   ...overridableDefaults,
   singleQuote: true,
   semi: true,
