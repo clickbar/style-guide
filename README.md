@@ -4,6 +4,9 @@
 
 At [prettier.js](./prettier.js) you can find our configuration for [Prettier](https://prettier.io).
 
+> **Note:**
+> Prettier is a peer dependency, so you need to install **prettier** too.
+
 To use it in your project, just add this to your `package.json`:
 
 ```json
@@ -11,6 +14,10 @@ To use it in your project, just add this to your `package.json`:
   "prettier": "@clickbar/style-guide/prettier"
 }
 ```
+
+> **Warning:**
+> We use the "unsafe" option `htmlWhitespaceSensitivity: ignore`. This might need some manual prettier-ignore's
+> when whitespaces are important in your HTML.
 
 ## Laravel Pint
 
