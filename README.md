@@ -1,4 +1,7 @@
-# style-guide
+# clickbar. Style Guide
+
+In this repository, we keep all of our code style configurations to easily share them across all projects.
+Please check the respective sections for information
 
 ## Prettier
 
