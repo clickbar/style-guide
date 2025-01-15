@@ -21,4 +21,5 @@ export default {
   singleQuote: true,
   semi: true,
   htmlWhitespaceSensitivity: 'ignore',
+  plugins: ['prettier-plugin-tailwindcss'],
 };

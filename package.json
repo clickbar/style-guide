@@ -42,5 +42,8 @@
     "prettier": {
       "optional": true
     }
+  },
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.9"
   }
 }
