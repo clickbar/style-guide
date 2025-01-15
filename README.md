@@ -33,3 +33,7 @@ This way your IDE tooling can pick up the configuration and provide you with the
 # from your project root
 ln -s ./node_modules/@clickbar/style-guide/pint.json pint.json
 ```
+
+## Thanks
+
+This repository is inspired by [Vercel's Style Guide](https://github.com/vercel/style-guide).
