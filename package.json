@@ -2,16 +2,45 @@
   "name": "@clickbar/style-guide",
   "version": "0.0.1",
   "description": "clickbar.'s engineering style guide",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/clickbar/style-guide#readme",
+  "bugs": {
+    "url": "https://github.com/clickbar/style-guide/issues"
   },
-  "keywords": [],
-  "author": "",
-  "prettier": "./prettier",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clickbar/style-guide.git"
+  },
   "license": "MIT",
-  "packageManager": "pnpm@9.15.0",
+  "type": "module",
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public",
+    "provenance": true
+  },
+  "exports": [
+    "./pint.json",
+    "./prettier.js"
+  ],
+  "files": [
+    "pint.json",
+    "prettier.js"
+  ],
+  "scripts": {
+    "prettier": "prettier . --cache",
+    "format": "pnpm prettier --write",
+    "fix": "pnpm format"
+  },
+  "prettier": "./prettier",
   "devDependencies": {
     "prettier": "^3.4.2"
+  },
+  "peerDependencies": {
+    "prettier": "^3.4.2"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    }
   }
 }
