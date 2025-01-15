@@ -1,5 +1,17 @@
 # style-guide
 
+## Prettier
+
+At [prettier.js](./prettier.js) you can find our configuration for [Prettier](https://prettier.io).
+
+To use it in your project, just add this to your `package.json`:
+
+```json
+{
+  "prettier": "@clickbar/style-guide/prettier"
+}
+```
+
 ## Laravel Pint
 
 At [pint.json](./pint.json) you can find our configuration for [Laravel Pint](https://github.com/laravel/pint).
