@@ -1,5 +1,5 @@
 ---
-'@clickbar/style-guide': minor
+'@clickbar/style-guide': patch
 ---
 
 Update dependencies
