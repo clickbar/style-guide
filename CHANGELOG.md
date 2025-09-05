@@ -1,5 +1,11 @@
 # @clickbar/style-guide
 
+## 0.0.4
+
+### Patch Changes
+
+- 37be37e: Update prettier-plugin dependencies for latest fixes
+
 ## 0.0.3
 
 ### Patch Changes
