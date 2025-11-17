@@ -1,5 +1,11 @@
 # @clickbar/style-guide
 
+## 0.0.5
+
+### Patch Changes
+
+- 2a82bf3: Update Tailwind Prettier Plugin
+
 ## 0.0.4
 
 ### Patch Changes
