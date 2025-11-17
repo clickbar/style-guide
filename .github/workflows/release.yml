@@ -26,6 +26,9 @@ jobs:
           cache: 'pnpm'
           node-version: '22'
 
+      - name: update npm
+        run: npm update -g npm # temporary until setup-node action comes with npm version that contains oidc setup by default
+
       - run: pnpm install
 
       - name: Create Release Pull Request or Publish to npm
