@@ -1,5 +1,12 @@
 # @clickbar/style-guide
 
+## 0.0.6
+
+### Patch Changes
+
+- 64c7c38: Removed risky mb_str_functions rule
+- b2b08e5: Updated dependencies
+
 ## 0.0.5
 
 ### Patch Changes
