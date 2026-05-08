@@ -1,5 +1,16 @@
 # @clickbar/style-guide
 
+## 0.1.0
+
+### Minor Changes
+
+- 50be65e: Update dependencies
+
+### Patch Changes
+
+- e83b175: Enable pint declare_strict_types rule
+- 50be65e: Require prettier >=3.7.x, due to prettier-plugin-tailwindcss optimizations
+
 ## 0.0.6
 
 ### Patch Changes
