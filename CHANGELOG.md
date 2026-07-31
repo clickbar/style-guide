@@ -1,5 +1,11 @@
 # @clickbar/style-guide
 
+## 0.1.1
+
+### Patch Changes
+
+- 83cd9e8: Update prettier tailwindcss plugin with bugfix
+
 ## 0.1.0
 
 ### Minor Changes
